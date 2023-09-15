@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400;1,900&display=swap');
+
+:root {
+    --primary-color: #EB5148;
+    --dark-color: #172121;
+    --white-color: #fff;
+
+}
+
+/*start global rules*/
+
+/*end global rules*/
+/*start header*/
+nav {
+    border-bottom: 1px solid #ccc;
+    background: #FDFFFC;
+}
+
+.navbar-light  .navbar-brand,
+.navbar-light  .navbar-brand:hover{
+        font-size: 32px;
+        color:var(--primary-color);
+        font-weight: 500;
+        font-style: italic;
+        margin-right: 70px;
+        font-family: 'Caveat', cursive;
+    }
+    
+
+.navbar-light .navbar-nav .nav-link{
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    color:black;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color:var(--primary-color);
+}
+    nav{
+ 
+ .buttons .btn {
+        border-radius: 12px;
+    }
+     .log {
+        background-color: #E8E9ED;
+        color: var(--primary-color);
+        border: 1.5px solid #ccc;
+    }
+    
+ .sign {
+    background-color: var(--primary-color);
+    color: var(--white-color);
+}
+
+}
+
+
+
+
+
+
+
+
+/*end header*/
+/*start section*/
+.our-selections {
+    padding-top: 20px;
+    padding-bottom: 60px;
+
+     h2 {
+    font-size: 26px;
+    line-height: 33px;
+    color: var(--dark-color);
+    padding-top: 35px;
+    font-family: 'roboto';
+     }
+
+     p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 33px;
+    font-family: 'roboto';
+     }
+
+    .all {
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: rgba(102, 16, 31, 1);
+    text-decoration: none;
+
+     }
+
+     .row .box:hover{
+    box-shadow: 0px 17px 50px 0px #8F90A652;
+       }
+    .box {
+    border: 1px solid #66101F;
+    border-radius: 30px;
+    margin: 15px;
+    padding: 15px;
+     }
+     .box .img-fluid {
+    border-radius: 20px;
+    width: 100%;
+    height: 190px;
+    
+      }
+
+    .box .info {
+    position: relative;
+    }
+
+     .box .info h2 {
+    font-family: 'poppins';
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 42px;
+    color: #110229;
+    padding-top: 0;
+    }
+
+     .box .info span {
+    font-family: 'poppins';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28.5px;
+    margin-right: 20px;
+    color: #383A47;
+    }
+
+  .box .info p {
+    font-family: 'Poppins';
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 29px;
+    text-align: left;
+    color: #383A47;
+    margin-top: 27px;
+}
+
+   .box .info .prix {
+    font-family: 'poppins';
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 28.5px;
+    text-align: center;
+    color: #fff;
+    background-color: var(--primary-color);
+    position: absolute;
+    right: 30px;
+    bottom: 0px;
+
+}
+}
+/*end section*/
+/*start footer*/
+footer {
+    background-color:#172121;
+    color: #fff;
+    padding-top: 50px;
+
+
+ .footer-info {
+    border-bottom: 1px solid #fff;
+    padding-bottom: 30px;
+}
+
+ a.logo-footer {
+   
+        font-size: 32px;
+        color: var(--primary-color);
+        font-weight: 500;
+        font-style: italic;
+        margin-right: 70px;
+        font-family: 'Caveat', cursive;
+    
+}
+a.logo-footer:hover{
+    text-decoration: none;
+}
+
+ h5 {
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+    text-align: left;
+
+}
+
+
+ a:hover{
+    color:var(--primary-color);
+
+}
+ .links li {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    margin: 10px;
+    
+}
+.links li:hover {
+   color:var(--primary-color);
+}
+.svg-inline--fa:hover{
+    color:var(--primary-color);
+}
+ form {
+    font-size: 13px;
+}
+
+ button {
+    background-color: var(--primary-color);
+    color: #fff;
+    padding: 8px 10px;
+    border: 0;
+    margin-left: -5px;
+}
+button:hover {
+    background-color:#fff;
+    color:var(--primary-color);
+    border:1px solid var(--primary-color);
+   
+}
+
+input {
+    background-color: #fff;
+    padding: 8px 10px;
+    border: 0;
+}
+
+ .copyright ul li {
+    padding: 10px 5px;
+}
+}
+/*end footer*/
